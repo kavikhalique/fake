@@ -1,8 +1,8 @@
 {
-  "routes":[
+  "rewrites":[
     {
-      "src": "/",
-      "dest": "/mis.nita.ac.in/HOSTEL/"
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
